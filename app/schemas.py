@@ -6,7 +6,7 @@ from pydantic import BaseModel, Field, field_validator
 EXPECTED_TOTAL_IMAGES = 8            # 1 reference + 7 verification frames
 REQUIRED_FRAMES = EXPECTED_TOTAL_IMAGES - 1
 MIN_PASSING_FRAMES = 5               # need >= 5 of 7 frames to count as verified
-MATCH_THRESHOLD_PERCENT = 70.0       # a single frame "passes" at >= 70% similarity
+MATCH_THRESHOLD_PERCENT = 60.0       # a single frame "passes" at >= 60% similarity
 
 
 class FaceVerificationRequest(BaseModel):

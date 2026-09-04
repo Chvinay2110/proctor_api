@@ -43,7 +43,7 @@ async def verify_face(payload: FaceVerificationRequest):
 
     Verifies the reference face against each of the 7 frames independently,
     then passes overall if at least MIN_PASSING_FRAMES (5) of the frames
-    scored >= MATCH_THRESHOLD_PERCENT (70%) similarity.
+    scored >= MATCH_THRESHOLD_PERCENT (60%) similarity.
     """
     reference_b64, *frame_b64_list = payload.images
 

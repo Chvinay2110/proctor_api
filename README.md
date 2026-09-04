@@ -45,7 +45,7 @@ real request isn't stuck paying that cost.
   "frames_passed": 6,
   "frames_total": 7,
   "min_required": 5,
-  "threshold_percent": 70.0,
+  "threshold_percent": 60.0,
   "results": [
     {"frame_index": 1, "similarity": 91.2, "passed": true, "error": null},
     {"frame_index": 2, "similarity": 88.4, "passed": true, "error": null},
